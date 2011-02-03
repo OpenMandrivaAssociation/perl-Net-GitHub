@@ -21,6 +21,7 @@ BuildRequires: perl(Test::MockModule)
 BuildRequires: perl(Test::More)
 BuildRequires: perl(URI::Escape)
 BuildRequires: perl(WWW::Mechanize::GZip)
+BuildRequires: perl(HTTP::Request::Common)
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
