@@ -1,15 +1,15 @@
 %define upstream_name    Net-GitHub
-%define upstream_version 0.28
+%define upstream_version 0.52
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 0.52
+Release:	1
 
 Summary:	Perl Interface for github.com
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Net/Net-GitHub-0.52.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Any::Moose)
@@ -82,3 +82,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Apr 30 2010 cpan2dist 0.20-1mdv
 - initial mdv release, generated with cpan2dist
+
