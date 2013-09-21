@@ -12,7 +12,6 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Net/Net-GitHub-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
-BuildRequires: perl(common::sense)
 BuildRequires:	perl(Any::Moose)
 BuildRequires:	perl(Crypt::SSLeay)
 BuildRequires:	perl(ExtUtils::MakeMaker)
