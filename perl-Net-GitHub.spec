@@ -1,15 +1,15 @@
 %define upstream_name    Net-GitHub
-%define upstream_version 0.28
+%define upstream_version 1.05
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Perl Interface for github.com
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Net/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/fayland/perl-net-github
+Source0:	https://cpan.metacpan.org/authors/id/F/FA/FAYLAND/Net-GitHub-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
